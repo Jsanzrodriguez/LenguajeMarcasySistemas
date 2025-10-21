@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primera página</title>
+</head>
+
+<body>
+    <!-- Este es el título de mi página web desde 0-->
+    <h1>¿CÓMO CREAR UNA PÁGINA WEB DESDE 0?</h1>
+    <h2>Aqui te van los primeros pasos; titulo secundario</h2>
+    <h2>Segundo titulo con salto de línea<h2>
+            <h2>Salto de linea</h2>
+            <a href="https://www.google.com/" target="__blank">
+                clic aqui para ir a google </a>
+
+            <img src="imagenprincipal.png" width="500" alt="foto de introduccion a como crear una pagina web"
+                title="logo imagen">
+
+</body>
+
+</html>
+
+<h2>Aqui tienes los 3 primeros pasos</h2>
+
+<ul>
+    <li><a href="https://www.google.com/">Primer paso</a></li>
+    <li>Segundo paso</li>
+    <li>Tercer paso</li>
+
+</ul>
+<h1>LISTA DE PEDIDOS</h1>
+<table border="1">
+    <thead>
+        <tr>
+            <th>Nº PEDIDO</th>
+            <th>FECHA</th>
+            <th>IMPORTE</th>
+            <th>VER</th>
+            <th colspan="2">ACCION</th>
+        <tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>#1234</td>
+            <td>12/12/2025</td>
+            <td>225eur</td>
+            <td>clic</td>
+            <td>editar</td>
+            <td>borrar</td>
+        </tr>
+        <tr>
+            <td>#1234</td>
+            <td>12/12/2025</td>
+            <td>225eur</td>
+            <td>clic</td>
+            <td>editar</td>
+            <td>borrar</td>
+        </tr>
+        <tr>
+            <td>#1234</td>
+            <td>12/12/2025</td>
+            <td>225eur</td>
+            <td>clic</td>
+            <td>editar</td>
+            <td>borrar</td>
+        </tr>
+        <tr>
+            <td>#1234</td>
+            <td>12/12/2025</td>
+            <td>225eur</td>
+            <td>clic</td>
+            <td>editar</td>
+            <td>borrar</td>
+        </tr>
+        <tr>
+            <td>#1234</td>
+            <td>12/12/2025</td>
+            <td>225eur</td>
+            <td>clic</td>
+            <td>editar</td>
+            <td>borrar</td>
+        </tr>
+    <tfoot>
+        <tr>
+            <td colspan="6"> Total pedidos; 6</td>
+        </tr>
+    </tfoot>
+</table>
+<br>
+<br>
+
+<form id="contact-form">
+
+    <fieldset>
+        <legend>Datos básicos</legend>
+
+        <label> Nombre:
+            <input type="text" placeholder="Escribe aquí tu nombre" required>
+        </label>
+        <p></p>
+        <label> Edad:
+            <input type="number" min="2" max="10" step="0.1" placeholder="Escribe aquí tu edad">
+        </label>
+        <p></p>
+        <label> Fecha de nacimiento:
+            <input type="date" placeholder="Escribe aquí tu fecha">
+        </label>
+        <p></p>
+        <label> Email:
+            <input type="email" placeholder="Escribe aquí tu email">
+        </label>
+        <p></p>
+        <label> Teléfono:
+            <input type="tel" placeholder="Escribe aquí tu teléfono">
+        </label>
+        <p></p>
+        <label> Contraseña:
+            <input type="password" minlength="8" placeholder="Escribe aquí tu contraseña">
+        </label>
+        <p></p>
+
+    </fieldset>
+
+
+    <fieldset>
+        <legend>Fecha, hora y número</legend>
+        <label> Hora de inicio:
+                <input type="time" step="60">
+        </label>
+        <p></p>
+
+        <label> Cita:
+            <input type="datetime-local">
+        </label>
+        <p></p>
+
+        <label> Mes:
+            <input type="month">
+        </label>
+        <p></p>
+
+        <label> Semana:
+            <input type="week">
+        </label>
+        <p></p>
+
+        <label> Prioridad:
+            <input type="range" min="0" max="1000"  oninput="document.getElementById('valorRango').value=this.value">
+        </label>
+        <output id="valorRango">50</output>
+        <p></p>
+
+        <label> Color favorito:
+            <input type="color" value="#555555">
+        </label>
+        <p></p>
+       
+    </fieldset>
+
+    <fieldset>
+        <legend>Opciones y listas</legend>
+
+        <fieldset>
+        <input type="radio" name="tipo_genero" value="hombre" checked>
+        <label>Hombre</label>
+
+        <input type="radio" name="tipo_genero" value="Mujer">
+        <label>Mujer</label>
+
+        <input type="radio" name="tipo_genero" value="No binario">
+        <label>No binario</label>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Extras</legend>
+
+            <input type="checkbox" name="extras" value="ketchup">
+            <label>Ketchup</label>
+            <p></p>
+
+            <input type="checkbox" name="extras" value="Bbq">
+            <label>Bbq</label>
+            <p></p>
+
+            <input type="checkbox" name="extras" value="Mostaza">
+            <label>Mostaza</label>
+            <p></p>
+
+        </fieldset>
+
+        <label>Variedad</label>
+        <select id="s-variedad" name="s-variedad">
+            <option value="sinOpcion">-------</option>
+            <optgroup label="Clásicos">
+                <option value="Holandes">Holandes</option>
+                <option value="Español">Español</option>
+            </optgroup>
+            <optgroup label="Modernos">
+                <option value="Pelao">Pelao</option>
+            </optgroup>
+
+        </select>
+        <p></p>
+
+        <label>Lotes (puedes elegir varios)</label>
+        <select id="Lotes" name="Lotes[]" multiple size="4">
+            <option value="LOTE1">LOTE1</option>
+            <option value="LOTE2">LOTE2</option>
+            <option value="LOTE3">LOTE3</option>
+            <option value="LOTE4">LOTE4</option>
+            <option value="LOTE5">LOTE5</option>
+            <option value="LOTE6">LOTE6</option>
+        </select>
+
+
+    </fieldset>
+
+
+    <button type="submit">Enviar</button>
+
+</form>
+</tbody>
