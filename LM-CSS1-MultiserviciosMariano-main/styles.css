@@ -1,0 +1,77 @@
+
+        *{
+        
+            background-color:bisque;
+
+        }
+
+        html{
+            color:red;
+
+
+
+        }
+
+        body {
+
+            font-family: Arial;
+            font-size: 16px;
+            
+
+        }
+
+        header {
+
+            text-align: center;
+            background-color: blue;
+            color: black;
+
+
+        }
+
+        header img {
+           
+            height:auto;
+            
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+
+        }
+
+        .logo{
+
+            width:50vw;
+            height: auto;
+            border-radius: 10px;
+        }
+        
+        .content h2 {
+            font-size: 1.6rem;
+            color:blue;
+            
+            margin: 50px 30px 5px 8px;
+        }
+
+        .btn {
+
+            padding: 20px;
+            border-radius: 8px;
+        }
+        .btn-enviar {
+            background: blue;
+            color:white;
+        }
+        .btn-enviar:hover{
+
+            filter: brightness(1.50);
+        }
+
+
+
+  
