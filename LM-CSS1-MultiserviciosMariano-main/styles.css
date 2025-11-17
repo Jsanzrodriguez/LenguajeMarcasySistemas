@@ -1,12 +1,12 @@
 
         *{
         
-            background-color:bisque;
+            background-color:#EAF4EC;
 
         }
 
         html{
-            color:red;
+            color:#1A1A1A;
 
 
 
@@ -23,7 +23,7 @@
         header {
 
             text-align: center;
-            background-color: blue;
+            background-color: #111;
             color: black;
 
 
@@ -53,25 +53,91 @@
         
         .content h2 {
             font-size: 1.6rem;
-            color:blue;
+            color:#145A32;
             
             margin: 50px 30px 5px 8px;
         }
+        h3{
+            color: #1D8348
+        }
 
         .btn {
-
+            margin-top: 20px;
             padding: 20px;
             border-radius: 8px;
+            border: none;
+            cursor: pointer;
         }
         .btn-enviar {
-            background: blue;
+             margin-top: 40px;
+            background: rgb(11, 95, 11);
             color:white;
+        }
+        .btn-borrar{
+            background-color: blue;
+            color:aliceblue;
+
+
         }
         .btn-enviar:hover{
 
             filter: brightness(1.50);
         }
 
+        /*
+            TABLA DE TARIFAS
+        */
 
+        .tabla-tarifas{
+
+            width: 100%;
+            border: 2px solid #333; 
+            border-radius: 8px;
+            background:#fff; 
+            overflow: hidden;
+            text-align: center;
+
+        }
+
+        .tabla-tarifas thead th {
+            background:#1D8348;
+            color: #fff;
+            padding: 10px;
+            border-bottom: 4px solid #333;
+        }
+
+        .tabla-tarifas td {
+
+            border: 1px solid #333;
+            padding: 40px;
+            vertical-align: top;
+
+        }
+
+        /*formulario*/
+
+        .contacto h2 {
+            margin-top: 10px;
+            margin-bottom: 6px;
+
+        }
+
+        .contacto p {
+
+            margin-bottom: 8px;
+        }
+
+        .form{
+
+            background:#fff;
+            border: 1px solid #333;
+            border-radius: 10px;
+            padding: 16px;
+        }
+
+        input {
+            margin-bottom: 40px;
+            
+        }
 
   
