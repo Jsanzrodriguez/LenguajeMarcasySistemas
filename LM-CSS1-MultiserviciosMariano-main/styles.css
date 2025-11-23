@@ -1,9 +1,6 @@
 
-        *{
-        
-            background-color:#EAF4EC;
 
-        }
+        
 
         html{
             color:#1A1A1A;
@@ -24,7 +21,7 @@
 
             text-align: center;
             background-color: #111;
-            color: black;
+            color: #fff;
 
 
         }
@@ -74,7 +71,7 @@
             color:white;
         }
         .btn-borrar{
-            background-color: blue;
+            background-color: red;
             color:aliceblue;
 
 
@@ -127,6 +124,12 @@
             margin-bottom: 8px;
         }
 
+        .content h2{
+            font-size: 1.6rem;
+
+
+        }
+
         .form{
 
             background:#fff;
@@ -135,9 +138,42 @@
             padding: 16px;
         }
 
-        input {
-            margin-bottom: 40px;
-            
+        .campo{
+
+            display: block;
+            margin-bottom: 15px;
+
         }
+
+        .campo > span {
+
+            display: inline-block;
+            margin-bottom: 6px;
+            font-weight: 600;
+        }
+
+        input[type="email" ], 
+        input[type="text"],
+        textarea {
+
+            width: 100%;
+            padding:10px;
+            border: 1px solid #27ae60;
+            border-radius: 8px;
+            outline: none;
+            box-sizing: border-box;
+        }
+
+        .site-footer{
+
+            margin-top: 24px;
+            padding: 18px 16px;
+            background: #dde3ea;
+            border-top: 1px solid #27ae60;
+            text-align: center;
+
+
+        }
+    
 
   
