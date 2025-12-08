@@ -69,6 +69,7 @@
              margin-top: 40px;
             background: rgb(11, 95, 11);
             color:white;
+            transition: all 0.3s ease;
         }
         .btn-borrar{
             background-color: red;
@@ -79,6 +80,7 @@
         .btn-enviar:hover{
 
             filter: brightness(1.50);
+            transform: translateY(-10px);
         }
 
         /*
