@@ -1,15 +1,18 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="desciption" content="Pagina Web para comprar calzoncillos">
+    <link rel="stylesheet" href="styles.css">
+
     <title>GALLUMBOS CIRUELO</title>
 </head>
 <body>
-    <header class="site header">
+    <header class="header">
         <h1>Gallumbos ciruelo</h1>
-        <img src="logo2.jpg" width="250" class="logo2.jpg">
-        <p>No es un buen rifle sin una buena funda</p>
+        <img src="images/logoprincipal.jpg" width="250" class="logo">
+        <h2>No es un buen rifle sin una buena funda</h2>
     </header>    
     
     <nav class="main-nav">
@@ -25,8 +28,7 @@
     <main class="page">
         <section id="About Gallumbos ciruelo" class="section">
           <h2>Sobre Gallumbos ciruelo</h2>
-          <p>Gallumbos ciruelo es una marca enfocada en la venta de alta calidad de calzoncillos, nada de pelotillas que te dejan el culo con sorpresita</p>
-          <p>Va enfocada a todos esos amantes de sorprender a su esposa dia a dia con una funda especial para cada ocasion</p>
+          <p>Gallumbos ciruelo es una marca enfocada en la venta de alta calidad de calzoncillos, nada de pelotillas que te dejan el culo con sorpresita. Va enfocada a todos esos amantes de sorprender a su esposa dia a dia con una funda especial para cada ocasion</p>
           <p>Lo que nos diferencia del resto es la alta durabilidad del producto. Olvidate de que se te rompan por el culillo a los 2 meses</p>  
         </section>
 
@@ -34,19 +36,19 @@
           <h2>Productos/Coleccion</h2>
           <p>Aquí esta la ultima coleccion 2025, todo 100% algodon puro</p>
           <div class="last collection">
-            <article class="articulo">
+            <article class="article">
                 <img src="images/boxers.jpg" alt="boxers">
                 <h3>Boxers</h3>
                 <p>Gallumbos tipo boxers</p>
                 <p class="precio">19.99</p>
             </article>
-            <article class="articulo">
+            <article class="article">
                 <img src="images/turbo.jpg" alt="turbo">
                 <h3>Turbo</h3>
                 <p>Gallumbos tipo turbo</p>
                 <p class="precio">15.99</p>
             </article>
-            <article class="articulo">
+            <article class="article">
                 <img src="images/sueltecillos.jpg"   alt="sueltecillos">
                 <h3>Sueltecillos</h3>
                 <p>Gallumbos tipo sueltecillo</p>
@@ -54,13 +56,14 @@
             </article>
             </div>
         </section>
-        <section>
+        <section id="destacada" class="section">
             <h2>Una vez probado nuestros gallumbos, no volveras a otras marcas</h2>
             <p>100% fabricado en España</p>
             <p>Olvidate de la pelotillas</p>
             <p>siente ese aroma 100% español al ponertelos</p>
+        </section>
 
-        <form id="Formulario-contacto">
+        <form id="Formulario-contacto" class="form">
         <fieldeset>
         <legend>Datos básicos de contacto</legend>
         <fieldset>
@@ -99,7 +102,7 @@
         </fieldeset>
         </form>
     </main>
-    <footer>
+    <footer class="footer">
         <adress>
             Contacto:<a href="mailto:info@gallumbitosciruelones.com">Enviar mail</a>
         </adress>
